@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookwormParadise.Web.props" />
+</Project>

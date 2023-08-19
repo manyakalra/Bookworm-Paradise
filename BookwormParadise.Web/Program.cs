@@ -1,6 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+namespace BookwormParadise.Web
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
 
-app.MapGet("/", () => "Hello World!");
+            var app = builder.Build();
 
-app.Run();
+            app.ConfigureMiddelwares();
+
+            app.Run();
+        }
+    }
+}
