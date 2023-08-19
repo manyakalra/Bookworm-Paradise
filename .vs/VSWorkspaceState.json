@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BookwormParadise.Web"
   ],
-  "SelectedNode": "\\C:\\Users\\amak\\Source\\Repos\\Bookworm-Paradise",
+  "SelectedNode": "\\BookwormParadise.Web\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
